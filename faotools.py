@@ -30,7 +30,7 @@ def get_production_crop_items():
     if _production_crop_items is None:
         _production_crop_items = db.production_crops.aggregate([{'$group': {'_id': {'Item': '$Item', 'Item Code': '$Item Code'}}}])
         _production_crop_items = [d['_id'] for d in _production_crop_items]
-        _production_crop_items = sorted(_production_crop_items, key=lambda x: x['Area'])
+        _production_crop_items = sorted(_production_crop_items, key=lambda x: x['Item'])
     return _production_crop_items
 
 _production_crop_elements = None
@@ -39,7 +39,7 @@ def get_production_crop_elements():
     if _production_crop_elements is None:
         _production_crop_elements = db.production_crops.aggregate([{'$group': {'_id': {'Element': '$Element', 'Element Code': '$Element Code'}}}])
         _production_crop_elements = [d['_id'] for d in _production_crop_elements]
-        _production_crop_elements = sorted(_production_crop_elements, key=lambda x: x['Area'])
+        _production_crop_elements = sorted(_production_crop_elements, key=lambda x: x['Item'])
     return _production_crop_elements
 
 _production_livestock_primary_item_codes = None
