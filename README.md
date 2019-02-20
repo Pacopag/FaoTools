@@ -8,6 +8,7 @@ FaoTools is a library written in python that uses the FAOSTAT data to perform va
  - wget
  - python 3
  - mongodb
+ - pip
 
 ## Setup
 
