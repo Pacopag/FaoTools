@@ -1,0 +1,21 @@
+#Setup Variables
+workingFile="$1"
+collectionTable="$2"
+
+zipFile="$workingFile.zip"
+csvFile="$workingFile.csv"
+
+echo "Populating data for $workingFile"
+wget "http://fenixservices.fao.org/faostat/static/bulkdownloads/$zipFile"
+unzip "$zipFile"
+rm "$zipFile"
+mongoimport --db faotools --collection $collectionTable --drop --type csv --file $csvFile --headerline
+rm "$csvFile"
+
+echo "Creating indexes"
+mongo --eval "db.$collectionTable.ensureIndex({'Area Code':1})" faotools 
+mongo --eval "db.$collectionTable.ensureIndex({'Item Code':1})" faotools
+mongo --eval "db.$collectionTable.ensureIndex({'Element Code':1})" faotools
+mongo --eval "db.$collectionTable.ensureIndex({'Year Code':1})" faotools
+mongo --eval "db.$collectionTable.ensureIndex({'Year':1})" faotools
+mongo --eval "db.$collectionTable.ensureIndex({'Flag:1})" faotools

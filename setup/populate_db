@@ -1,0 +1,138 @@
+#
+./populate_faostat_table "Production_Crops_E_All_Data_(Normalized)" production_crops
+./populate_faostat_table "Production_CropsProcessed_E_All_Data_(Normalized)" production_crops_processed
+./populate_faostat_table "Production_Livestock_E_All_Data_(Normalized)" production_livestock
+./populate_faostat_table "Production_LivestockPrimary_E_All_Data_(Normalized)" production_livestock_primary
+./populate_faostat_table "Production_LivestockProcessed_E_All_Data_(Normalized)" production_livestock_processed
+./populate_faostat_table "Production_Indices_E_All_Data_(Normalized)" production_indices
+./populate_faostat_table "Value_of_Production_E_All_Data_(Normalized)" value_of_production
+./populate_faostat_table "Trade_Crops_Livestock_E_All_Data_(Normalized)" trade_crops_livestock
+./populate_faostat_table "Trade_LiveAnimals_E_All_Data_(Normalized)" trade_live_animals
+./populate_faostat_table "Trade_DetailedTradeMatrix_E_All_Data_(Normalized)" trade_detailed_trade_matrix
+./populate_faostat_table "Trade_Indices_E_All_Data_(Normalized)" trade_indices
+./populate_faostat_table "FoodBalanceSheets_E_All_Data_(Normalized)" food_balance_sheets
+./populate_faostat_table "CommodityBalances_Crops_E_All_Data_(Normalized)" commodity_balances_crops
+./populate_faostat_table "CommodityBalances_LivestockFish_E_All_Data_(Normalized)" commodity_balances_livestock
+./populate_faostat_table "FoodSupply_Crops_E_All_Data_(Normalized)" food_supply_crops
+./populate_faostat_table "FoodSupply_LivestockFish_E_All_Data_(Normalized)" food_supply_livestock
+./populate_faostat_table "Indicators_from_Household_Surveys_E_All_Data_(Normalized)" indicators_household_surveys
+./populate_faostat_table "Food_Security_Data_E_All_Data_(Normalized)" food_security
+./populate_faostat_table "Prices_E_All_Data_(Normalized)" prices
+./populate_faostat_table "Prices_Monthly_E_All_Data_(Normalized)" prices_monthly
+./populate_faostat_table "Price_Indices_E_All_Data_(Normalized)" price_indices
+./populate_faostat_table "PricesArchive_E_All_Data_(Normalized)" prices_archive
+./populate_faostat_table "ConsumerPriceIndices_E_All_Data_(Normalized)" consumer_price_indices
+./populate_faostat_table "Deflators_E_All_Data_(Normalized)" deflators
+./populate_faostat_table "Exchange_rate_E_All_Data_(Normalized)" exchange_rate
+./populate_faostat_table "Inputs_FertilizersNutrient_E_All_Data_(Normalized)" inputs_fertilizer_by_nutrient
+./populate_faostat_table "Inputs_FertilizersProduct_E_All_Data_(Normalized)" inputs_fertilizer_by_product
+./populate_faostat_table "Inputs_FertilizersArchive_E_All_Data_(Normalized)" inputs_fertilizer_archive
+./populate_faostat_table "Inputs_FertilizersTradeValues_E_All_Data_(Normalized)" inputs_fertilizer_trade_value
+./populate_faostat_table "Inputs_Pesticides_Use_E_All_Data_(Normalized)" inputs_pesticides_use
+./populate_faostat_table "Inputs_Pesticides_Trade_E_All_Data_(Normalized)" inputs_pesticides_trade
+./populate_faostat_table "Inputs_LandUse_E_All_Data_(Normalized)" inputs_land_use
+./populate_faostat_table "Employment_Indicators_E_All_Data_(Normalized)" inputs_employment_indicators
+./populate_faostat_table "Population_E_All_Data_(Normalized)" population
+./populate_faostat_table "Investment_Machinery_E_All_Data_(Normalized)" investment_machinery
+./populate_faostat_table "Investment_MachineryArchive_E_All_Data_(Normalized)" investment_machinery_archive
+./populate_faostat_table "Investment_GovernmentExpenditure_E_All_Data_(Normalized)" investment_government_expenditure
+./populate_faostat_table "Investment_CreditAgriculture_E_All_Data_(Normalized)" investment_credit_agriculture
+./populate_faostat_table "Development_Assistance_to_Agriculture_E_All_Data_(Normalized)" development_assistance_to_agriculture
+./populate_faostat_table "Investment_ForeignDirectInvestment_E_All_Data_(Normalized)" investment_foreign_direct_investment
+./populate_faostat_table "Investment_CountryInvestmentStatisticsProfile__E_All_Data_(Normalized)" investment_country_investment_statistics_profile
+./populate_faostat_table "Investment_CapitalStock_E_All_Data_(Normalized)" investment_capital_stock
+./populate_faostat_table "Macro-Statistics_Key_Indicators_E_All_Data_(Normalized)" macro_statistics_key_indicators
+./populate_faostat_table "Environment_AirClimateChange_E_All_Data_(Normalized)" environment_air_climate_change
+./populate_faostat_table "Environment_Energy_E_All_Data_(Normalized)" environment_energy
+./populate_faostat_table "Environment_Fertilizers_E_All_Data_(Normalized)" environment_fertilizers
+./populate_faostat_table "Environment_LandUse_E_All_Data_(Normalized)" environment_land_use
+./populate_faostat_table "Environment_LandCover_E_All_Data_(Normalized)" environment_land_cover
+./populate_faostat_table "Environment_LivestockPatterns_E_All_Data_(Normalized)" environment_livestock_patterns
+./populate_faostat_table "Environment_LivestockManure_E_All_Data_(Normalized)" environment_livestock_manure
+./populate_faostat_table "Environment_Pesticides_E_All_Data_(Normalized)" environment_pesticides
+./populate_faostat_table "Environment_Soil_E_All_Data_(Normalized)" environment_soil
+./populate_faostat_table "Environment_Water_E_All_Data_(Normalized)" environment_water
+./populate_faostat_table "Environment_Emissions_by_Sector_E_All_Data_(Normalized)" environment_emissions_by_sector
+./populate_faostat_table "Environment_Emissions_intensities_E_All_Data_(Normalized)" environment_emission_intensities
+./populate_faostat_table "Environment_Temperature_change_E_All_Data_(Normalized)" environment_temperature_change
+./populate_faostat_table "Emissions_Agriculture_Agriculture_total_E_All_Data_(Normalized)" emissions_agriculture
+./populate_faostat_table "Emissions_Agriculture_Enteric_Fermentation_E_All_Data_(Normalized)" emissions_enteric_fermentation
+./populate_faostat_table "Emissions_Agriculture_Manure_Management_E_All_Data_(Normalized)" emissions_manure_management
+./populate_faostat_table "Emissions_Agriculture_Rice_Cultivation_E_All_Data_(Normalized)" emissions_rice_cultivation
+./populate_faostat_table "Emissions_Agriculture_Synthetic_Fertilizers_E_All_Data_(Normalized)" emissions_synthetic_fertilizers
+./populate_faostat_table "Emissions_Agriculture_Manure_applied_to_soils_E_All_Data_(Normalized)" emissions_manure_applied_to_soils
+./populate_faostat_table "Emissions_Agriculture_Manure_left_on_pasture_E_All_Data_(Normalized)" emissions_manure_left_on_pasture
+./populate_faostat_table "Emissions_Agriculture_Crop_Residues_E_All_Data_(Normalized)" emissions_crop_residues
+./populate_faostat_table "Emissions_Agriculture_Cultivated_Organic_Soils_E_All_Data_(Normalized)" emissions_cultivated_organic_soils
+./populate_faostat_table "Emissions_Agriculture_Burning_Savanna_E_All_Data_(Normalized)" emissions_burning_savanna
+./populate_faostat_table "Emissions_Agriculture_Burning_crop_residues_E_All_Data_(Normalized)" emissions_burning_crop_residues
+./populate_faostat_table "Emissions_Agriculture_Energy_E_All_Data_(Normalized)" emissions_energy
+./populate_faostat_table "Emissions_Land_Use_Land_Use_Total_E_All_Data_(Normalized)" emissions_land_use
+./populate_faostat_table "Emissions_Land_Use_Forest_Land_E_All_Data_(Normalized)" emissions_forest_land
+./populate_faostat_table "Emissions_Land_Use_Cropland_E_All_Data_(Normalized)" emissions_cropland
+./populate_faostat_table "Emissions_Land_Use_Grassland_E_All_Data_(Normalized)" emissions_grassland
+./populate_faostat_table "Emissions_Land_Use_Burning_Biomass_E_All_Data_(Normalized)" emissions_burning_biomass
+./populate_faostat_table "Forestry_E_All_Data_(Normalized)" forestry
+./populate_faostat_table "Forestry_Trade_Flows_E_All_Data_(Normalized)" forestry_trade_flows
+./populate_faostat_table "ASTI_Researchers_E_All_Data_(Normalized)" asti_researchers
+./populate_faostat_table "ASTI_Research_Spending_E_All_Data_(Normalized)" asti_research_spending
+./populate_faostat_table "Food_Aid_Shipments_WFP_E_All_Data_(Normalized)" food_aid_shipments
+
+
+
+#./populate_productioncrops
+#./populate_productioncropsprocessed
+#./populate_productionlivestock
+#./populate_productionlivestockprimary
+#./populate_productionlivestockprocessed
+#./populate_livestockprimaryproduced
+#./populate_foodbalancesheets
+#./populate_commoditybalance
+#./populate_population
+#./populate_land
+#./populate_tradecropslivestock
+#./populate_tradeliveanimals
+#./populate_tradematrix
+#./populate_countries
+#./populate_balancers
+#./populate_partners
+#./populate_reporters
+#./populate_producers
+#./populate_livestockunits
+#./populate_countrymappings
+#./populate_cropsproduced
+#./populate_commoditytrees
+#./populate_countryaggregates
+#./populate_systemanimalfractions
+#./populate_systemslaughterfractions
+#./ populate_systemproductionfractions
+#./populate_feedfoodfractions
+#./populate_feedconversionparams
+#./populate_systemareafractions
+#python ../cropyield/GenerateCropYieldData_pp.py
+#mv cropyields.csv ../cropyield
+#sed -i '/None/ s///g' ../cropyield/cropyields.csv
+#./populate_cropyields
+#python ../cropproduction/GenerateCropProductionData_pp.py
+#mv cropproduction.csv ../cropproduction
+#./populate_cropproduction
+#python ../agriculturalarea/GenerateAgriAreaData_pp.py
+#mv agriculturalarea.csv ../agriculturalarea
+#./populate_agriculturalarea
+#python ../croplandarea/GenerateCroplandAreaData_pp.py
+#mv croplandarea.csv ../croplandarea
+#./populate_cropland
+#python ../feedtodomestic/GenerateFeedToDomesticData_pp.py
+#mv feedtodomesticratios.csv ../feedtodomestic
+#sed -i '/None/ s///g' ../feedtodomestic/feedtodomesticratios.csv 
+#./populate_feedtodomestic
+#./populate_livestockmappings
+#./populate_livestockproductionexport
+#./populate_livestockproductionimportexport
+#./populate_livestockproductionimportexportcull
+#./populate_livestockproductionexportnoadj#
+#python ../ssr/GenerateSSRData_pp.py
+#sed -i '/None/ s///g' ../ssr/ssr.csv
+#./populate_ssr
+#./populate_pastureareas
+
